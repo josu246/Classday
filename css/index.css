@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img {
+    width: 50px;
+}
+
+.links {
+    text-align: right;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+.slider {
+    position: relative;
+    display: none;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slider-toggle:checked + .slider {
+    display: block;
+}
+
+.slide {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
